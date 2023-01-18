@@ -224,3 +224,19 @@ npm i --save-dev @types/react-currency-formatter --force
 ```bash
 npm i -D react-currency-formatter --force
 ```
+
+## Deploy
+
+1. Sanity deploy
+
+```bash
+cd apple-sanity
+```
+
+2. Install package
+
+```bash
+npx sanity deploy
+```
+
+3.  Studio hostname? -->Neree ogno
