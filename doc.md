@@ -42,7 +42,7 @@ git remote -v
 git push --set-upstream origin main
 ```
 
-## 3 - Installing SANITY.io CMS (content management system)
+## 3 - Installing SANITY.io CMS (Content Management System)
 
 https://www.sanity.io/docs/create-a-sanity-project
 
@@ -131,6 +131,52 @@ npm install next-sanity @portabletext/react @sanity/image-url
    slug: { \_type: 'slug', current: 'apple-watch' },
    title: 'Apple Watch'}
 6. iim objectuud Array[] baidlaar irne.
+7. "/pages/index.tsx" dotor "getServerSideProps"-oor categories-oo awna.
+
+## 8 - REDUX (State Management)
+
+## 8.1 Preparing Redux Store and Slice
+
+https://redux-toolkit.js.org/introduction/getting-started
+https://redux-toolkit.js.org/tutorials/typescript
+
+1. Installing Redux Toolkit
+
+```bash
+npm i @reduxjs/toolkit react-redux
+```
+
+2. Creating a redux folder with file "/redux/store.ts"
+   "/redux/store.ts" dotroo "reducer:{basket:basketReducer}
+3. Wrapping Redux Store
+   "/pages/\_app.tsx" dotor...
+   https://redux-toolkit.js.org/tutorials/quick-start
+4. Create a Redux State Slice
+   https://redux-toolkit.js.org/tutorials/quick-start dotroos jishee "slice" code huulj awna. ("/redux/basketSlice.ts" dotroo...)
+5. Sagsan dah baraag ustgah, nemeh functionality bugd "basketSlice" dotor bga.
+
+## 8.2 Adding items in the <Product/> component
+
+1. useDispatch() hook import
+2. dispact(addTobasket(product))...
+
+## 8.3 Getting items length in the <Header/> component
+
+1. useSelector(selectBasketItems) hook import
+2.
+
+## Custom Toaster Alert by React-hot-toast
+
+1. Installing
+
+```bash
+yarn add react-hot-toast
+```
+
+https://github.com/timolins/react-hot-toast
+
+2. "/pages/\_app.tsx" dotroo WRAP hiine.
+3. "/components/Product.tsx" dotor ashiglaw.
 
 ## Using HERO Icons
 
@@ -168,3 +214,13 @@ npm i @headlessui/react@latest
 
 1. Tabs (card)
    https://headlessui.com/react/tabs
+
+## Installing Currency Formatter
+
+```bash
+npm i --save-dev @types/react-currency-formatter --force
+```
+
+```bash
+npm i -D react-currency-formatter --force
+```
