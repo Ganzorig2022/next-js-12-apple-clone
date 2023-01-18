@@ -241,5 +241,4 @@ npx sanity deploy
 
 3.  Studio hostname? -->Neree ogno
 
-4.  Successfully deployd: https://apple-clone-app.sanity.studio/
-    iim link irne.
+4.  Successfully deployd: https://... iim link irne.
