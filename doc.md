@@ -225,7 +225,7 @@ npm i --save-dev @types/react-currency-formatter --force
 npm i -D react-currency-formatter --force
 ```
 
-## Deploy
+## Deploying SANITY
 
 1. Sanity deploy
 
@@ -241,5 +241,5 @@ npx sanity deploy
 
 3.  Studio hostname? -->Neree ogno
 
-4.  Successfully deployd: https://... iim link irne.
+4.  Successfully deployd: https://YOUR_APP_NAME.sanity.studio iim link irne.
 5.
